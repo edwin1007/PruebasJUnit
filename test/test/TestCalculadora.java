@@ -31,6 +31,6 @@ public class TestCalculadora {
     
     @Test
     public void testDividir(){
-        assertTrue(p.dividir(100,10) == 100);
+        assertTrue(p.dividir(100,10) == 10);
     }
 }
