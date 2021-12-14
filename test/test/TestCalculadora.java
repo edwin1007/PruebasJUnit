@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 import pruebasjunit.Calculadora;
 
 public class TestCalculadora {
-    
+    //
     Calculadora p;
     
     public TestCalculadora(){
@@ -31,6 +31,6 @@ public class TestCalculadora {
     
     @Test
     public void testDividir(){
-        assertTrue(p.dividir(100,10) == 10);
+        assertTrue(p.dividir(100,10) == 100);
     }
 }
