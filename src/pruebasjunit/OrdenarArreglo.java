@@ -50,4 +50,18 @@ public class OrdenarArreglo{
             System.out.print(vec[i]+" ");
         }
     }
+    
+    public static int[] BubbleSort(int[] vector){
+        int i, j, aux;
+        for (i=0; i<vector.length-1; i++) {
+            for (j=0; j<vector.length-i - 1; j++) {
+                if (vector[j+1] < vector[j]) {
+                    aux = vector[j+1];
+                    vector[j+1] = vector[j];
+                    vector[j] = aux;
+                }
+            }
+        }
+        return vector;
+    }
 }

@@ -8,9 +8,9 @@ public class PruebasJUnit {
         System.out.println("Pruebas unitarias!");
         
         OrdenarArreglo oa = new OrdenarArreglo();
-        /*
-        int arreglo[] = {50, 11, 39 ,47 ,101, 73, 81, 25, 3, -12};
         
+        int arreglo[] = {50, 11, 39 ,47 ,101, 73, 81, 25, 3, -12};
+        /*
         System.out.print("arreglo inicial: ");
         oa.imprimirVector(arreglo);
         
@@ -19,5 +19,8 @@ public class PruebasJUnit {
         System.out.print("\narreglo ordenado: ");
         oa.imprimirVector(arreglo);*/
         
+        /*
+        oa.BubbleSort(arreglo);
+        oa.imprimirVector(arreglo);*/
     } 
 }

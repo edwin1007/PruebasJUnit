@@ -24,4 +24,15 @@ public class OrdenarArregloTest {
         assertTrue(Arrays.equals(entrada2, salida2)); //valida si la condicion es verdadera.
         //assertArrayEquals(salida1, entrada1); //valida si los arreglos son iguales.
     }
+    
+    @Test
+    public void testBubbleSort(){
+        System.out.println("BubbleSort");
+        int[] entrada3 = {50, 11, 39 ,47, 73, 81, 25, 3, -12};
+        int[] salida3 = {-12, 3, 11, 25, 39, 47, 50, 73, 81};
+        
+        OrdenarArreglo.BubbleSort(entrada3);
+        
+        assertArrayEquals(salida3, entrada3);
+    }
 }
