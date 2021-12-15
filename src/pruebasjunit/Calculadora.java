@@ -4,7 +4,7 @@ package pruebasjunit;
 public class Calculadora {
     
     public Calculadora() {
-        //
+        
     }
     
     public int sumar(int a, int b){
