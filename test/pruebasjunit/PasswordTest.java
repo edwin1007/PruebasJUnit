@@ -36,6 +36,6 @@ public class PasswordTest {
     @Test
     public void testLetrasNumerosYSimbolos(){ //contraseña con letras, numeros y simbolos.
         System.out.println("Test password letras, numeros y simbolos!");
-        assertEquals(Password.SecurityLevel.Alto, Password.contraseña("abcd1234!"));
+        assertEquals(Password.SecurityLevel.Alto, Password.contraseña("abcd12"));
     }
 }
